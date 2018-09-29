@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 活动广告部分 */
+.guoqing {
+  width: 100%;
+  height: 50px;
+  background: #dd5b0e;
+}
+.guoqing .guoqing-pic {
+  width: 980px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+/* 头部部分 */
+.mll-header .nav-bar {
+  background-color: #f8f8f8;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  position: relative;
+  z-index: 290;
+  color: #717171;
+}
+.mll-header .nav-bar .nav-bar-view {
+  width: 1200px;
+  margin: 0 auto;
+}
+.mll-header .nav-bar .nav-bar-view:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.mll-header .nav-bar .nav-bar-view .nav-bar-left {
+  position: relative;
+  height: 30px;
+  float: left;
+}
+.mll-header .nav-bar .nav-bar-view .nav-bar-left li {
+  height: 30px;
+  line-height: 28px;
+  float: left;
+  margin-right: 5px;
+}
+.mll-header .nav-bar .nav-bar-view .nav-bar-left .city {
+  position: relative;
+}
+.mll-header .nav-bar .nav-bar-view .nav-bar-right {
+  height: 30px;
+  float: right;
+}
+
+.nav-bar-left .address i {
+  width: 11px;
+  height: 14px;
+  background: url(../images/nav.png) 0 -38px no-repeat;
+  overflow: hidden;
+  margin: 7px 5px 0 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav-bar-left .city a {
+  display: inline-block;
+  padding: 0 5px;
+  color: #717171;
+}
+
+.nav-bar-left .login-register a {
+  padding: 0 8px;
+  color: #717171;
+}
+
+/* 右边nav */
+.nav-bar-right li {
+  height: 28px;
+  border: solid 1px #f8f8f8;
+  float: left;
+  position: relative;
+  padding: 0 5px;
+}
+.nav-bar-right li a {
+  color: #717171;
+  display: block;
+}
+
+.nav-bar-right .mll a {
+  display: block;
+  color: #717171;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,15 @@
+a, applet, b, body, code, dd, del, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, label, li, object, ol, p, pre, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, u, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration:none;
+}
+body{
+	font-size:12px;
+}
+ol,ul{
+	list-style: none;
+}

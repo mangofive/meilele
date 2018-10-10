@@ -13,3 +13,4 @@ body{
 ol,ul{
 	list-style: none;
 }
+input,button,select,textarea{outline:none};

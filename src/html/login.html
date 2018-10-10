@@ -25,7 +25,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="bg-red">
+	<div id="bg-red" class="main">
 		<div class="content">
 			<div class="content-left">
 				<a href="" title="查看详情">
@@ -33,10 +33,38 @@
 				</a>
 			</div>
 			<div class="content-right">
-				<div></div>
-				<div>
-					<div></div>
-					<div></div>
+				<div class="solid"></div>
+				<div class="switch-type">
+					<p>账号登录</p>
+				</div>
+				<form class="login-form">
+					<div class="error-date"></div>
+					<div class="input-group select-username">
+						<label class="i-phone"></label>
+						<input type="text" name="username" placeholder="邮箱/用户名/已验证手机" id="username">
+					</div>
+					<div class="input-group">
+						<label class="i-lock"></label>
+						<input type="password" name="password" placeholder="密码" id="password">
+					</div>
+					<div class="regist-group clearfix">
+						<a href="javascript:;">忘记密码？</a>
+					</div>
+					<a href="javascript:;" class="submit-btn margin-R" id="btn">登录</a><a href="register.html" class="submit-btn">注册</a>
+				</form>
+				<div class="other-login clearfix">
+					<a href="javascript:;" class="i-weixin Left  JS_switch-key">
+						<i></i>
+						<span>微信登录</span>
+					</a>
+					<a href="javascript:;" class="i-app Left  JS_switch-key">
+						<i></i>
+						<span>APP扫码</span>
+					</a>
+					<a href="javascript:;" class="i-qq Left  JS_switch-key">
+						<i></i>
+						<span>QQ登录</span>
+					</a>
 				</div>
 			</div>
 		</div>

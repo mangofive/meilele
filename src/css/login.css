@@ -1,5 +1,17 @@
+@charset "UTF-8";
 @import url("header.css");
 @import url("footer.css");
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 #logo {
   position: relative;
   width: 1190px;
@@ -54,6 +66,135 @@
   background: #fff;
   padding: 22px 27px 20px 27px;
   height: 300px;
+}
+
+.main {
+  padding: 72px 0;
+  min-width: 1190px;
+}
+
+.content-right .solid {
+  position: absolute;
+  bottom: 68px;
+  border-top: solid 1px #f4f4f4;
+  width: 360px;
+  left: 0;
+  z-index: 124;
+}
+.content-right .switch-type p {
+  color: #e62318;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+.content-right .login-form .error-date {
+  margin: 5px 0;
+  color: #e62318;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  padding: 0 8px;
+  border: 1px solid #fff;
+}
+.content-right .login-form .input-group {
+  position: relative;
+  height: 40px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.content-right .login-form .input-group .i-phone {
+  float: left;
+  width: 19px;
+  height: 20px;
+  background: url(../images/allPuzzle.png) -63px -30px no-repeat;
+  margin: 10px 16px 10px 11px;
+}
+.content-right .login-form .input-group .i-lock {
+  float: left;
+  width: 19px;
+  height: 19px;
+  background: url(../images/allPuzzle.png) -21px -30px no-repeat;
+  margin: 10px 16px 10px 11px;
+}
+.content-right .login-form .input-group input {
+  float: left;
+  height: 20px;
+  font-size: 13px;
+  width: 254px;
+  border: 0 none;
+  padding: 10px 0;
+  margin: 0;
+  font-family: '微软雅黑';
+}
+.content-right .login-form .regist-group {
+  margin-top: -12px;
+}
+.content-right .login-form .regist-group a {
+  float: right;
+}
+.content-right .login-form a {
+  margin: 24px 0 17px 0;
+}
+.content-right .login-form .submit-btn {
+  display: inline-block;
+  padding: 0 40px;
+  height: 42px;
+  line-height: 42px;
+  background-color: #e62318;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 3px;
+}
+.content-right .login-form .margin-R {
+  margin-right: 80px;
+}
+
+.other-login {
+  position: relative;
+  width: 440px;
+  left: -13px;
+  margin: 30px 0 0 0;
+  vertical-align: middle;
+}
+.other-login .Left {
+  float: left;
+}
+.other-login .i-weixin, .other-login .i-app, .other-login .i-qq {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 13px;
+  width: 109px;
+  height: 28px;
+}
+.other-login .i-weixin i, .other-login .i-app i, .other-login .i-qq i {
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../images/allPuzzle.png) no-repeat;
+}
+.other-login .i-weixin span, .other-login .i-app span, .other-login .i-qq span {
+  padding-right: 10px;
+  line-height: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  color: #999;
+}
+.other-login .i-weixin i {
+  background-position: -73px -172px;
+}
+.other-login .i-app i {
+  background-position: -73px -80px;
+}
+.other-login .i-qq i {
+  background-position: -73px -108px;
 }
 
 /*# sourceMappingURL=login.css.map */

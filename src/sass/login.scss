@@ -8,8 +8,13 @@
     clear: both;
 	}
 }
-
-
+.clearfix{
+    @include clearfix();
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
 #logo{
 	position: relative;
     width: 1190px;
@@ -55,4 +60,137 @@
     		height:300px;
     	}
 	}
+}
+.main{
+    padding: 72px 0;
+    min-width: 1190px;
+}
+.content-right{
+    .solid{
+        position: absolute;
+        bottom: 68px;
+        border-top: solid 1px #f4f4f4;
+        width: 360px;
+        left: 0;
+        z-index: 124;
+    }
+    .switch-type{
+        p{
+            color: #e62318;
+            font-weight: 700;
+            font-size: 20px;
+           text-align:center;
+        }
+    }
+    .login-form{
+        .error-date{
+            margin: 5px 0;
+            color: #e62318;
+            height: 26px;
+            line-height: 26px;
+            font-size: 12px;
+            padding: 0 8px;
+            border: 1px solid #fff;
+        }
+        .input-group{
+            position: relative;
+            height: 40px;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            line-height: 40px;
+            margin-bottom: 25px;
+            .i-phone{
+                float: left;
+                width: 19px;
+                height: 20px;
+                background: url(../images/allPuzzle.png) -63px -30px no-repeat;
+                margin: 10px 16px 10px 11px;
+            }
+            .i-lock{
+                float: left;
+                width: 19px;
+                height: 19px;
+                background: url(../images/allPuzzle.png) -21px -30px no-repeat;
+                margin: 10px 16px 10px 11px;
+            }
+            input{
+                float: left;
+                height: 20px;
+                font-size: 13px;
+                width: 254px;
+                border: 0 none;
+                padding: 10px 0;
+                margin: 0;
+                font-family: '微软雅黑';
+            }
+        }
+        .regist-group{
+            margin-top: -12px;
+            a{
+                float:right;
+            }
+        }
+        a{
+            margin: 24px 0 17px 0;
+        }
+        .submit-btn{
+            display: inline-block;
+            padding:0 40px;
+            height: 42px;
+            line-height: 42px;
+            background-color: #e62318;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 3px; 
+        }
+        .margin-R{
+            margin-right:80px;
+        }
+    }
+}
+.other-login{
+    position: relative;
+    width: 440px;
+    left: -13px;
+    margin: 30px 0 0 0;
+    vertical-align: middle;
+    .Left{
+        float:left;
+    }
+    .i-weixin,.i-app,.i-qq{
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 13px;
+        width: 109px;
+        height: 28px;
+        i{
+            margin-right: 6px;
+            vertical-align: middle;
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background: url(../images/allPuzzle.png) no-repeat;
+        }
+        span{
+            padding-right: 10px;
+            line-height: 16px;
+            vertical-align: middle;
+            display: inline-block;
+            color: #999;
+        }
+    }
+    .i-weixin i{
+        background-position: -73px -172px;
+    }
+    .i-app i{
+        background-position: -73px -80px;
+    }
+    .i-qq i{
+        background-position: -73px -108px;
+    }
+
 }

@@ -15,7 +15,7 @@
 	}
 }
 /* 头部部分 */
-.mll-header .nav-bar {
+#nav-bar {
 	background-color: #f8f8f8;
     height: 30px;
     width: 100%;
@@ -47,7 +47,7 @@
 		}
 	}
 }
-.nav-bar-left .address i{
+#nav-bar .nav-bar-left .address i{
 	width: 11px;
     height: 14px;
     background: url(../images/nav.png) 0 -38px no-repeat;
@@ -56,17 +56,17 @@
     display: inline-block;
     vertical-align: top;
 }
-.nav-bar-left .city a{
+#nav-bar .nav-bar-left .city a{
 	display: inline-block;
     padding: 0 5px;
     color: #717171;
 }
-.nav-bar-left .login-register a{
+#nav-bar .nav-bar-left .login-register a{
 	padding: 0 8px;
 	color: #717171;
 }
 /* 右边nav */
-.nav-bar-right li{
+#nav-bar .nav-bar-right li{
 	height: 28px;
     border: solid 1px #f8f8f8;
     float: left;
@@ -95,7 +95,7 @@
     	}
     }
 }
-.nav-bar-right{
+#nav-bar .nav-bar-right{
 	.cart a .car-pic{
 		width: 17px;
     	height: 14px;
@@ -131,6 +131,9 @@
 		    float: left;
 		    position: relative;
 		    z-index: 210;
+		    img{
+		    	background:none;
+		    }
 		}
 		.search-keyword{
 			position: absolute;
@@ -163,7 +166,7 @@
 		}
 	}
 }
-.from-search form{
+#search-bar .from-search form{
 	#jsHeaderSearchInput{
 	font-family: '微软雅黑';
     width: 542px;
@@ -226,6 +229,55 @@
     position: absolute;
     z-index: 101;
     display: block;
+    .cat-item:hover .icon{
+		opacity:1;
+    }
+    .cat-item:hover{
+    	a{
+    		color:#333!important;
+    	}
+    	.i0{
+    		background-position: 0 -168px;
+    		
+    	}
+    	.i1{
+			background-position: 0 -147px;
+
+	    }
+	    .i2{
+			background-position: 0 -126px;
+	    }
+	    .i3{
+			background-position:0 -231px;
+	    }
+	    .i4{
+			background-position: 0 -210px;
+	    }
+	    .i5{
+			background-position: 0 -189px;
+	    }
+	    .i6{
+			background-position: 0 -264px;
+	    }
+	    .i7{
+	    	background-position: 0 -42px;
+	    } 
+	    .i8{
+	    	background-position: 0 -21px;
+	    }
+	    .i9{
+	    	background-position: 0x 0;
+	    }
+	    .i10{
+	    	background-position: 0 -105px;
+	    }
+	    .i11{
+	    	background-position: 0 -84px;
+	    }
+	    .i12{
+	    	background-position: 0 -63px;
+	    }
+    }
     .cat-item{
     	height: 34px;
 	    line-height: 34px;

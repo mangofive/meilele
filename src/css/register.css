@@ -56,6 +56,9 @@
   float: right;
 }
 
+#user-reg-from .reg-box p {
+  margin-bottom: 20px;
+}
 #user-reg-from .reg-box p .tips {
   width: 100px;
   display: inline-block;

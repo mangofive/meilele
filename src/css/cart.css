@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url("header.css");
+@import url("footer.css");
+/* 轮播图 */
+.w {
+  width: 1200px;
+}
+
+.w {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+img {
+  overflow: hidden;
+  vertical-align: top;
+  background: #eee;
+}
+
+.Left {
+  float: left;
+}
+
+.Right {
+  float: right;
+}
+
+.gray {
+  color: #999;
+}
+
+/* 非引入部分的样式的开始 */
+.mt20 {
+  margin-top: 20px;
+}
+
+.w {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flow_h2 .text {
+  font-size: 24px;
+  font-family: 微软雅黑;
+  color: #555555;
+}
+.flow_h2 .text img {
+  width: 133px;
+  height: 32px;
+}
+
+/* 购物车--空 */
+.no_goods {
+  width: 830px;
+  padding: 90px 0 90px 148px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.no_goods .icon {
+  width: 131px;
+  height: 93px;
+  background: url(../images/bg2.png) -840px -99px no-repeat;
+}
+.no_goods .main {
+  width: 630px;
+}
+.no_goods .main .strong {
+  font-size: 24px;
+  font-family: 微软雅黑;
+  line-height: 50px;
+  font-weight: normal;
+  color: #454545;
+}
+.no_goods .main .go_buy {
+  display: inline-block;
+  vertical-align: middle;
+  width: 149px;
+  height: 40px;
+  background: url(../images/bg2.png) -311px -135px no-repeat;
+}
+.no_goods .main .f14 {
+  font-size: 14px;
+}
+.no_goods .main .text {
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 27px;
+  border: 1px solid #cecece;
+  vertical-align: top;
+  margin-top: 5px;
+}
+.no_goods .main .submit {
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  color: #666;
+  height: 29px;
+  vertical-align: top;
+  border: 1px solid #cecece;
+  background: url(../images/liner.jpg) 0 0 repeat-x;
+  margin-top: 5px;
+  border-left: none;
+}
+
+/*# sourceMappingURL=cart.css.map */

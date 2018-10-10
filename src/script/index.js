@@ -43,12 +43,22 @@
 
 !function($){
 	//商品分类侧边栏
-	console.log($(".index-header .menu-bar .cat-item").size());
-	$(".index-header .menu-bar .cat-item").hover(function() {
+		$(".index-header").on('mouseover','.cat-item',function(event){
+			/*var $target=event.target;*/
+			$(this).css({'paddingLeft':'5px','background':'rgba(255,255,255,.9)'}).children('.sub-cat').css('display', 'block');
+		})
+		$(".index-header").on('mouseout','.cat-item',function(event){
+			/*var $target=event.target;*/
+			$(this).css({'paddingLeft':'0px','background':'rgba(00,00,00,.8)'}).children('.sub-cat').css('display', 'none');
+		})
+
+	/*$(".index-header .menu-bar .cat-item").hover(function() {
 		$(this).stop().animate({paddingLeft:5}, 500).css('background', 'rgba(255,255,255,.9)');
 	}, function() {
 		$(this).stop().animate({paddingLeft:0}, 500).css('background', 'rgba(00,00,00,.8)');
-	});
+	});*/
+
+
 	//轮播图效果
 	var $num=0
 	var $timer=null

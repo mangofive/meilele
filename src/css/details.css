@@ -1,0 +1,285 @@
+@charset "UTF-8";
+@import url("header.css");
+@import url("footer.css");
+a:hover {
+  color: #e62318 !important; }
+
+.w {
+  width: 1190px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+img {
+  overflow: hidden;
+  vertical-align: top;
+  background: #eee; }
+
+.details-header .category-option {
+  display: none !important; }
+
+.cat-link-new {
+  padding-top: 20px;
+  margin-bottom: 20px; }
+.cat-link-new .bread-nav .bitem {
+  float: left;
+  position: relative;
+  margin-right: 25px;
+  height: 22px;
+  line-height: 22px;
+  color: #aaa; }
+.cat-link-new .bread-nav .bitem a {
+  font-size: 12px;
+  color: #aaa; }
+.cat-link-new .bread-nav .bitem .drop-tit {
+  position: relative;
+  display: block;
+  height: 20px;
+  padding: 0 18px 0 8px;
+  line-height: 20px;
+  color: #666;
+  border: solid 1px #ddd;
+  z-index: 4; }
+.cat-link-new .bread-nav .bitem .drop-tit .arrow-d {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: url(../images/arrow-d.png) no-repeat;
+  right: 5px;
+  top: 8px;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  overflow: hidden; }
+.cat-link-new .bread-nav .bitem .arrow-r {
+  position: absolute;
+  top: 0;
+  right: -14px;
+  width: 5px;
+  height: 9px;
+  overflow: hidden;
+  display: block;
+  vertical-align: top;
+  margin-top: 7px;
+  background: url(../images/arrow-r.png) no-repeat; }
+.cat-link-new .bread-nav .bitem:hover .drop-tit {
+  height: 21px;
+  background: #fff;
+  border-bottom: none; }
+.cat-link-new .bread-nav .bitem:hover .drop-tit .arrow-d {
+  -webkit-transform: rotate(-180deg); }
+.cat-link-new .bread-nav .bitem:hover .bread-drop {
+  display: block; }
+
+.cat-link-new .bread-drop {
+  z-index: 3;
+  position: absolute;
+  top: 21px;
+  left: 0;
+  padding: 16px 10px;
+  line-height: 24px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  display: none; }
+.cat-link-new .bread-drop a {
+  display: inline-block;
+  height: 24px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #aaa; }
+
+/* 详情页主体部分 左边 */
+.details-box {
+  margin-bottom: 20px; }
+
+.goods-display {
+  width: 470px;
+  margin-right: 35px;
+  float: left; }
+.goods-display .slide .stage {
+  position: relative;
+  width: 470px;
+  height: 311px; }
+.goods-display .slide .stage .jqzoom {
+  text-decoration: none;
+  float: left;
+  position: relative; }
+.goods-display .slide .stage .jqzoom img {
+  width: 470px;
+  height: 311px; }
+.goods-display .slide .thumb {
+  height: 57px;
+  margin-top: 10px; }
+.goods-display .slide .thumb .table {
+  position: relative;
+  margin: 0 auto;
+  width: 470px;
+  height: 57px;
+  overflow: hidden; }
+.goods-display .expr-relative {
+  margin-top: 25px;
+  padding: 0;
+  background: none; }
+
+/*  导购门店 */
+.epm {
+  overflow: hidden;
+  position: relative; }
+.epm .ept {
+  background: #fff4e1;
+  height: 42px;
+  line-height: 42px; }
+.epm .ept i {
+  display: block;
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 19px;
+  background: url(../images/expr-pIcon.png);
+  margin-left: 29px;
+  top: 12px; }
+.epm .ept strong {
+  font-size: 18px;
+  color: #333;
+  margin: 0 12px 0 5px; }
+.epm .ept .red {
+  color: #e62318; }
+.epm .epl {
+  padding-top: 3px;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #fae5c2;
+  border-top: none;
+  box-sizing: border-box;
+  height: 207px;
+  overflow: hidden; }
+.epm .epl .item {
+  overflow: hidden;
+  border-bottom: 1px dashed #e7e7e7; }
+.epm .epl .item .gray {
+  padding: 12px 18px;
+  overflow: hidden;
+  padding-right: 0; }
+.epm .scrollBar {
+  position: absolute;
+  right: 5px;
+  top: 60px;
+  width: 10px;
+  height: 185px;
+  float: right;
+  overflow: hidden;
+  background: url(../images/change_city3.gif) -10px 0 repeat-y; }
+.epm .scrollBar span {
+  width: 10px;
+  height: 36px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(../images/change_city3.gif) 0 0 no-repeat;
+  display: inline-block; }
+
+/* 门店图片和地址 */
+.gray .pic {
+  float: left;
+  margin-right: 15px; }
+.gray .pic img {
+  width: 112px;
+  height: 73px; }
+.gray .content {
+  float: left;
+  width: 290px; }
+.gray .content .address {
+  height: 18px;
+  line-height: 18px;
+  margin-bottom: 6px; }
+.gray .content .address i {
+  display: block;
+  float: left;
+  position: relative;
+  width: 13px;
+  height: 17px;
+  background: url(../images/landmark.png);
+  top: 1px; }
+.gray .content .address strong {
+  font-size: 14px;
+  color: #333;
+  margin: 0 6px 0 4px;
+  max-width: 170px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  float: left; }
+.gray .content .address .getaddress {
+  color: #cf000e; }
+.gray .content div {
+  overflow: hidden; }
+.gray .content div .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  float: left; }
+.gray .content div .avatar img {
+  width: 100%;
+  height: 100%; }
+.gray .content div .text {
+  overflow: hidden;
+  margin-left: 60px; }
+.gray .content div .text li {
+  overflow: hidden;
+  line-height: 25px; }
+.gray .content div .text span {
+  float: left;
+  width: 90px; }
+.gray .content div .text .way {
+  margin-left: 8px;
+  display: block;
+  float: left;
+  border: 1px solid #7a7a7a;
+  width: 93px;
+  height: 21px;
+  line-height: 21px;
+  text-align: center; }
+.gray .content div .text .star {
+  float: left;
+  height: 25px;
+  width: 74px;
+  background: url(../images/star.png) center center no-repeat; }
+
+/* 放大镜下面的切换 */
+.table ul {
+  width: 5000px;
+  position: relative; }
+.table ul li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 86px;
+  height: 57px;
+  margin: 0 5px;
+  float: left;
+  position: relative; }
+.table ul li a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 86px;
+  height: 57px;
+  border: solid 2px #f1494e; }
+.table ul li:first-child {
+  margin-left: 0; }
+
+/* 详情的中间部分 */
+.goods-panel {
+  width: 510px;
+  float: left; }
+
+/*# sourceMappingURL=details.css.map */

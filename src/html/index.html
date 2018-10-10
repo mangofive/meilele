@@ -2,74 +2,447 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>主页</title>
 </head>
+<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
 <body>
-	<!-- 活动广告 -->
-	<div class="guoqing" style="width: 100%;height: 50px;background: #dd5b0e">
-		<div style="width:980px;height:50px;margin:0 auto">
-			<a href="">
-				<img src="https://image.meilele.com/images/201809/1537493807774190149.jpg">
-			</a>
-		</div>
-	</div>
 	<!-- 头部 -->
-	<div class="mll-header">
-		<div class="nav-bar" style="height:30px;width: 100%;background: #fe34">头部导航</div>
-		<div class="search-bar" style="height: 112px;width: 100%;background: #AA1414">搜索</div>
-		<div class="menu-bar" style="height:36px;width:100%;background: #041C06">导航</div>
+	<div class="index-header">
+		
 	</div>
 	<!-- 轮播图 -->
-	<div class="banner" style="background: #ffeed3;height: 460px">
-		轮播图
+	<div class="banner" id="mll-banner" style="background:#ffeed3">
+		<div class="w pr">
+			<div class="expr-opacity"></div>
+			<div class="expr-link">
+				<div class="word">
+					<p class="city-num">
+						<a href="" target="_blank">杭州体验馆<span>5</span>家</a>
+					</p>
+					<p>
+						<a href="" target="_blank">全国体验馆<span>244</span>家</a>
+					</p>
+				</div>
+				<div class="img-list">
+					<a href="" class="pavilio"></a>
+					<a href="" target="_blank" class="expr-btn"></a>
+				</div>
+				<div class="word-list">
+					<p>美乐乐10年</p>
+					<p>已服务<span>1000000</span>个</p>
+					<p>中国家庭</p>
+				</div>
+			</div>
+		</div>
+		<ul class="scroll-pic">
+			<!-- <li class="scroll-item">
+				<div class="scroll-index">
+					<a href="" target="_blank" title="国庆大促">
+						<img class="sc-big fadeInR" src="https://img004.mllres.com/images/201809/1537750595738632628.jpg" alt="国庆大促">	
+						<img class="sc-small fadeInL" src="https://img001.mllres.com/images/201809/1537750740707588246.png" alt="国庆大促">
+					</a>
+				</div>
+			</li> -->
+		</ul>
+		<div class="scroll-btn">
+			<span class="active"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
 	</div>
 	<!-- 主体部分 -->
-	<div id="main" style="width: 1200px;margin: 0 auto;background: #9FAF20">
-		<!-- 推荐-团购 -->
-		<div style="width:1200px;height: 300px;background: #114E0E">
-			<div>
-				<a href="">
-					<div></div>
-					<img src="">
+	<div id="jsindexdata">
+		<!-- 第一部分 -->
+		<div class="limit-robbing w">
+			<div class="clearfix">
+				<a class="first back-img" href="javascript:;" target="_blank">
+					<div class="floor-content">
+						<div class="represent">
+							<div class="word-box">
+								<p class="describe">团购</p>
+								<p class="depict">底价成团 限时限量</p>
+							</div>
+						</div>
+					</div>
+					<img src="https://image.meilele.com/images/201807/1532540414266071876.jpg">
 				</a>
-				<a href="">
-					<div></div>
-					<img src="">
+				<a class="back-img" href="javascript:;" target="_blank" >
+					<div class="floor-content">
+						<div class="represent">
+							<div class="word-box">
+								<p class="describe">现货特卖</p>
+								<p class="depict">低至2折 就是要便宜</p>
+							</div>
+						</div>
+					</div>
+					<img src="https://image.meilele.com/images/201807/1532541445612807005.jpg">
 				</a>
-				<a href="">
-					<div></div>
-					<img src="">
+				<a class="back-img" href="javascript:;" target="_blank" >
+					<div class="floor-content">
+						<div class="represent">
+							<div class="word-box">
+								<p class="describe">现货特卖</p>
+								<p class="depict">低至2折 就是要便宜</p>
+							</div>
+						</div>
+					</div>
+					<img src="https://image.meilele.com/images/201807/1532541445612807005.jpg">
 				</a>
-				<a href="">
-					<div></div>
-					<img src="">
+				<a class="back-img" href="javascript:;" target="_blank" >
+					<div class="floor-content">
+						<div class="represent">
+							<div class="word-box">
+								<p class="describe">现货特卖</p>
+								<p class="depict">低至2折 就是要便宜</p>
+							</div>
+						</div>
+					</div>
+					<img src="https://image.meilele.com/images/201807/1532541445612807005.jpg">
 				</a>
 			</div>
 		</div>
-		<!-- 新品首发 -->
-		<div class="new product" style="width: 1200px;margin: 0 auto;background: #B018BF;height: 393px">
-			<div>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
+		<!-- 第二部分 -->
+		<div class="new-product w jsFloor">
+			<div class="floor-name clearfix">
+				<a href="" class="title" target="_blank">新品首发</a>
+				<span class="describe"></span>
+				<a href="" class="link" target="_blank">更多新品<i></i></a>
+			</div>
+			<div class="goods-list clearfix">
+				<a href="" target="_blank" class="back-img first">
+					<div class="floor-content">
+						<span class="describe">追"新"无止境</span><br>
+						<span class="depict">新品到.立即前往>></span>
+					</div>
+					<img src="https://image.meilele.com/images/201809/1535907493612916817.jpg">
+				</a>
+				<a href="" target="_blank" class="back-img ">
+					<div class="floor-content">
+						<span class="describe">奢华大气皮艺转角沙发</span><br>
+						<span class="depict">
+							<label>￥</label>
+							<span class="JS_async_price">5999</span>
+						</span>
+					</div>
+					<img src="https://image.meilele.com/images/201810/1538329854850272046.jpg">
+				</a>
+				<a href="" target="_blank" class="back-img ">
+					<div class="floor-content">
+						<span class="describe">简欧大理石餐厅套装</span><br>
+						<span class="depict">
+							<label>￥</label>
+							<span class="JS_async_price">5999</span>
+						</span>
+					</div>
+					<img src="https://image.meilele.com/images/201810/1538330037203852913.jpg">
+				</a>
 			</div>
 		</div>
-		<!-- 人气推荐 -->
-		<div class="new product" style="width: 1200px;margin: 0 auto;background: #297D87;height: 393px">
-			<div>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
+
+	<!-- 主体第三部分 -->
+		<div class="popularity w jsFloor">
+			<div class="floor-name clearfix">
+				<a href="javascript:;" class="title">人气推荐</a>
+				<span class="describe"></span>
+			</div>
+			<div class="popularity-goods clearfix">
+				<a href="" class="l-good back-img">
+					<div class="floot-content">
+						<p class="describe">北欧双人实木床</p>
+						<p class="depict">7.9折限时团</p>
+						<p class="price">
+							<label>￥</label>
+							<span class="JS_async_price">1768</span>
+						</p>
+					</div>
+					<img src="https://image.meilele.com/images/201809/1536530464121320509.jpg">
+				</a>
+				<a href="" class="m-good back-img">
+					<div class="floot-content">
+						<div class="represent">
+							<div class="date">
+								<p class="describe">进口橡胶木皮布沙发</p>
+								<p class="depict">
+									5.6折限时团
+									<label>￥</label>
+									<span class="JS_async_price">24999</span>
+								</p>
+							</div>
+							<div class="content-back"></div>
+						</div>
+					</div>
+					<img src="https://image.meilele.com/images/201809/1536601516397079477.jpg">
+				</a>
+				<div class="r-good">
+					<a href="" class="back-img first">
+						<div class="floot-content">
+							<p class="describe">北欧双人实木床</p>
+							<p class="depict">7.9折限时团</p>
+							<p class="price">
+								<label>￥</label>
+								<span class="JS_async_price">1768</span>
+							</p>
+						</div>
+						<img src="https://image.meilele.com/images/201809/1536510752883962352.jpg">
+					</a>
+					<a href="" class="back-img">
+						<div class="floot-content">
+							<p class="describe">北欧双人实木床</p>
+							<p class="depict">7.9折限时团</p>
+							<p class="price">
+								<label>￥</label>
+								<span class="JS_async_price">1768</span>
+							</p>
+						</div>
+						<img src="https://image.meilele.com/images/201809/1536510752883962352.jpg">
+					</a>
+				</div>
 			</div>
 		</div>
-		<!-- 热销套系 -->
-		<div class="new product" style="width: 1200px;margin: 0 auto;background: #7A179F;height: 393px">
-			<div>
-				<a href=""></a>
-				<a href=""></a>
-				<a href=""></a>
+		<!-- 主体第四部分 -->
+		<div class="bill w jsFloor">
+			<div class="floor-name clearfix">
+				<a href="javascript:;" class="title">热销套系</a>
+				<span class="discribe"></span>
+			</div>
+			<div class="bill-list clearfix">
+				<div class="bill-goods first">
+					<a href="javascript:;" class="back-img suit-img">
+						<img src="https://image.meilele.com/images/201807/1532545896318614796.jpg">
+					</a>
+					<div class="goods-list">
+						<div class="arrow">
+							<div></div>
+						</div>
+						<a class="title" href="" target="_blank">回归初心，把复杂的生活简单化</a>
+						<p class="detail">
+							<a href="" target="_blank">
+								<span>源自大自然的馈赠，与想要的生活不期而遇</span>
+							</a>
+							<a href="" class="link" target="_blank">详情</a>
+						</p>
+						<div class="list clearfix">
+							<div class="good first">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+							<div class="good">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+							<div class="good">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bill-goods">
+					<a href="javascript:;" class="back-img suit-img">
+						<img src="https://image.meilele.com/images/201807/1532545896318614796.jpg">
+					</a>
+					<div class="goods-list">
+						<div class="arrow">
+							<div></div>
+						</div>
+						<a class="title" href="" target="_blank">回归初心，把复杂的生活简单化</a>
+						<p class="detail">
+							<a href="" target="_blank">
+								<span>源自大自然的馈赠，与想要的生活不期而遇</span>
+							</a>
+							<a href="" class="link" target="_blank">详情</a>
+						</p>
+						<div class="list clearfix">
+							<div class="good first">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+							<div class="good">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+							<div class="good">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bill-goods">
+					<a href="javascript:;" class="back-img suit-img">
+						<img src="https://image.meilele.com/images/201807/1532545896318614796.jpg">
+					</a>
+					<div class="goods-list">
+						<div class="arrow">
+							<div></div>
+						</div>
+						<a class="title" href="" target="_blank">回归初心，把复杂的生活简单化</a>
+						<p class="detail">
+							<a href="" target="_blank">
+								<span>源自大自然的馈赠，与想要的生活不期而遇</span>
+							</a>
+							<a href="" class="link" target="_blank">详情</a>
+						</p>
+						<div class="list clearfix">
+							<div class="good first">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+							<div class="good">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+							<div class="good">
+								<a href="" class="back-img" target="_blank">
+									<img src="https://image.meilele.com/images/201807/1531438534466361157.jpg">
+								</a>
+								<div class="floor-content">￥<span class="JS_async_price">7599</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体的第五部分 -->
+		<div class="w classification" id="jsLayerList">
+			<div class="classify jsFloor" id="jsLayer1">
+				<div class="classify-list">
+					<div class="list">
+						<div class="name">
+							<p class="chinese-name">
+								<a href="" target="_blank">客厅</a>
+							</p>
+							<p class="english-name">
+								<a href="" target="_blank">LIVING ROOM</a>
+							</p>
+						</div>
+						<div class="type clearfix">
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+							<a href="" target="_blank">实木沙发</a>
+						</div>
+					</div>
+				</div>
+				<ul class="classify-detail">
+					<li class="fadeInClass  none">
+						<div class="scroll-index">
+							<a href="" target="_blank" class="back-img suit-img">
+								<img src="https://image.meilele.com/images/201807/1532555677114736472.jpg">
+							</a>
+							<div class="goods-list clearfix">
+								<div class="goods first">
+									<a href="" class="back-img">
+										<img src="https://image.meilele.com/images/201807/1530698590685364207.jpg">
+										<div class="tag"></div>
+									</a>
+									<p class="name">
+										<a href="" target="_blank">典藏珍品橡胶木框架纺丝沙发</a>
+									</p>
+									<p class="price">￥<span class="JS_async_price">6199</span></p>
+								</div>
+								<div class="goods ">
+									<a href="" class="back-img">
+										<img src="https://image.meilele.com/images/201807/1530698590685364207.jpg">
+										<div class="tag"></div>
+									</a>
+									<p class="name">
+										<a href="" target="_blank">典藏珍品橡胶木框架纺丝沙发</a>
+									</p>
+									<p class="price">￥<span class="JS_async_price">6199</span></p>
+								</div>
+								<div class="goods ">
+									<a href="" class="back-img">
+										<img src="https://image.meilele.com/images/201807/1530698590685364207.jpg">
+										<div class="tag"></div>
+									</a>
+									<p class="name">
+										<a href="" target="_blank">典藏珍品橡胶木框架纺丝沙发</a>
+									</p>
+									<p class="price">￥<span class="JS_async_price">6199</span></p>
+								</div>
+								<div class="goods ">
+									<a href="" class="back-img">
+										<img src="https://image.meilele.com/images/201807/1530698590685364207.jpg">
+										<div class="tag"></div>
+									</a>
+									<p class="name">
+										<a href="" target="_blank">典藏珍品橡胶木框架纺丝沙发</a>
+									</p>
+									<p class="price">￥<span class="JS_async_price">6199</span></p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="classify-btn clearfix">
+					<div class="btn">
+						<div class="title">中式</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">新古典</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">北欧</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">简美</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">美式</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">欧式</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">现代</div>
+						<div class="back"></div>
+					</div>
+					<div class="btn">
+						<div class="title">地中海</div>
+						<div class="back"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div class="index-footer"></div>
+	<script type="text/javascript" src="../script/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../script/index.js"></script>
 </body>
 </html>

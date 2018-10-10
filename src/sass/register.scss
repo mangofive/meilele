@@ -1,0 +1,164 @@
+@charset "utf-8";
+@import url("header.css");
+@import url("footer.css");
+@mixin clearfix() {
+  &:after {
+    content: " "; 
+    display: table; 
+    clear: both;
+	}
+}
+#center{
+	position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    text-align: left;
+    .user-header{
+    	padding: 11px 0 3px 0;
+    	@include clearfix();
+    	.user-header-left{
+    		width: 176px;
+    		height: 72px;
+    		margin-top: -4px;
+    		float:left;
+    	}
+    	.user-header-right{
+    		width: 180px;
+    		padding-top: 40px;
+    		text-align: right;
+    		float:right;
+    		a{
+    			color: #333;
+    		}
+    	}
+    }
+    .user-register{
+    border: 1px solid #d7d7d7;
+    padding: 40px;
+    padding-right: 0;
+    @include clearfix();
+        .user-reg-left{
+        width: 768px;
+        border-right: 1px solid #ddd;
+        color: #555;
+        float:left;
+            .reg-box{
+                padding:20px 0;
+            }
+        }
+        .user-reg-right{
+        width: 220px;
+        margin-right: 80px;
+        color:#555;
+        float:right;
+        }
+    }
+}
+#user-reg-from .reg-box p {
+    .tips{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+    }
+    .register-input{
+        height: 40px;
+        line-height: 40px;
+        width: 296px;
+        border: 1px solid #d5d5d5;
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    span{
+
+    }
+}
+#user-reg-from  .reg-box .readed{
+    line-height: 18px;
+    padding: 10px 0 20px 100px;
+    #checked-look{
+        vertical-align: top;
+    }
+}
+#user-reg-from  .reg-box #register-submit{
+    padding-left: 100px;
+    input{
+        cursor: pointer;
+        background: #cf000e;
+        width: 308px;
+        height: 42px;
+        border: none;
+        outline: 0;
+        color:#fff;
+    }
+}
+/* 注册的右边 */
+.user-reg-right{
+    .user-ok-register{
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        padding: 20px 0;
+        a{
+            color: #fff!important;
+            font-size: 14px;
+            display: inline-block;
+            text-align: center;
+            line-height: 32px;
+            background: #cf000e;
+            border: 0;
+            height: 32px;
+            width: 70px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    }
+    .login-api{
+        .QRCode-img{
+            text-align: center;
+            padding: 90px 0;
+            border-bottom: 1px solid #eee;
+            position:relative;
+            img{
+                width: 120px;
+                height: 120px;
+                overflow: hidden;
+                vertical-align: top;
+                background: #eee;
+            }
+            p{
+                position: relative;
+                top: 20px;
+                font-size: 14px;
+                line-height: 14px;
+                color: #333;
+            }
+        }
+        .share-login{
+            margin-top: 20px;
+            .api-tips{
+                color: #999;
+                font-size: 12px;
+            }
+            .api-from{
+                a{
+                    background: url(../images/allPuzzle.png);
+                    height: 28px;
+                    width: 28px;
+                    display: inline-block;
+                    float: left;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+                .qq{
+                    background-position: 0 0;
+                }
+                .sina{
+                    background-position: -28px 0;
+                }
+                .alipy{
+                    background-position: -86px 0;
+                }
+            }
+        }
+    }
+}

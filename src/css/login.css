@@ -1,0 +1,59 @@
+@import url("header.css");
+@import url("footer.css");
+#logo {
+  position: relative;
+  width: 1190px;
+  margin: 0 auto;
+  text-align: left;
+}
+#logo .user-header {
+  padding: 11px 0 3px 0;
+}
+#logo .user-header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#logo .user-header .user-header-left {
+  width: 176px;
+  height: 72px;
+  margin-top: -4px;
+  float: left;
+}
+#logo .user-header .user-header-right {
+  width: 180px;
+  padding-top: 40px;
+  text-align: right;
+  float: right;
+}
+#logo .user-header .user-header-right a {
+  color: #333;
+}
+
+#bg-red {
+  background: #e62318;
+}
+#bg-red .content {
+  margin: 0 auto;
+  width: 1070px;
+  position: relative;
+}
+#bg-red .content:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#bg-red .content .content-left {
+  float: left;
+}
+#bg-red .content .content-right {
+  float: right;
+  position: relative;
+  width: 306px;
+  min-height: 371px;
+  background: #fff;
+  padding: 22px 27px 20px 27px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=login.css.map */

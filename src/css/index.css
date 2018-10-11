@@ -3,24 +3,29 @@
 @import url("footer.css");
 /* 轮播图 */
 .w {
-  width: 1200px; }
+  width: 1200px;
+}
 
 .w {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: #333;
+}
 
 .clearfix:after {
   content: " ";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 img {
   overflow: hidden;
   vertical-align: top;
-  background: #eee; }
+  background: #eee;
+}
 
 .banner {
   position: relative;
@@ -29,10 +34,12 @@ img {
   height: 460px;
   /* 轮播图区域最右边的长方块 */
   /* 轮播图的图片 */
-  /* 轮播图按钮 */ }
+  /* 轮播图按钮 */
+}
 .banner .pr {
   position: relative;
-  z-index: 200; }
+  z-index: 200;
+}
 .banner .pr .expr-opacity {
   z-index: 199;
   background: #fff;
@@ -41,32 +48,38 @@ img {
   width: 180px;
   height: 360px;
   right: 0;
-  top: 50px; }
+  top: 50px;
+}
 .banner .pr .expr-link {
   position: absolute;
   width: 180px;
   height: 360px;
   right: 0;
   top: 50px;
-  z-index: 200; }
+  z-index: 200;
+}
 .banner .scroll-pic {
-  height: 460px; }
+  height: 460px;
+}
 .banner .scroll-pic .scroll-item {
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
   text-align: center;
-  display: none; }
+  display: none;
+}
 .banner .scroll-pic .scroll-item .scroll-index {
   position: relative;
   -webkit-filter: inherit;
   filter: inherit;
   width: 1200px;
   height: 460px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 .banner .scroll-pic .scroll-item .sc-big {
-  position: relative; }
+  position: relative;
+}
 .banner .scroll-pic .scroll-item .fadeInR {
   -webkit-animation-name: fadeInR;
   animation-name: fadeInR;
@@ -74,12 +87,14 @@ img {
   animation-duration: 1.5s;
   -webkit-animation-iteration-count: 1;
   animation-timing-function: linear;
-  -webkit-animation-timing-function: linear; }
+  -webkit-animation-timing-function: linear;
+}
 .banner .scroll-pic .scroll-item .sc-small {
   position: absolute;
   right: 180px;
   top: 0;
-  background: 0 0; }
+  background: 0 0;
+}
 .banner .scroll-pic .scroll-item .fadeInL {
   -webkit-animation-name: fadeInL;
   animation-name: fadeInL;
@@ -87,55 +102,66 @@ img {
   animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
   animation-timing-function: linear;
-  -webkit-animation-timing-function: linear; }
+  -webkit-animation-timing-function: linear;
+}
 .banner .scroll-pic li {
   position: absolute;
   height: 460px;
-  width: 100%; }
+  width: 100%;
+}
 .banner .scroll-btn {
   position: absolute;
   overflow: hidden;
   bottom: 30px;
   z-index: 3;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 .banner .scroll-btn span {
   display: inline-block;
   width: 30px;
   height: 5px;
   margin: 0 1px;
   cursor: pointer;
-  background: #fff; }
+  background: #fff;
+}
 .banner .scroll-btn .active {
-  background: #333; }
+  background: #333;
+}
 
 /* 最右边方块的内容部分样式 */
 .expr-link .word {
   text-align: center;
-  margin: 25px 0 23px 0; }
+  margin: 25px 0 23px 0;
+}
 .expr-link .word .city-num {
   color: #333;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 .expr-link .word p {
   color: #999;
   font-size: 14px;
   line-height: 20px;
   padding-bottom: 3px;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .expr-link .word p span {
   font-size: 20px;
-  color: #e62318; }
+  color: #e62318;
+}
 .expr-link .img-list {
-  position: relative; }
+  position: relative;
+}
 .expr-link .img-list .pavilio {
   background: url(../images/index.png) 0 -599px no-repeat;
   width: 130px;
   height: 130px;
   margin: 0 auto;
-  display: block; }
+  display: block;
+}
 .expr-link .img-list .expr-btn {
   position: absolute;
   top: 116px;
@@ -143,21 +169,26 @@ img {
   display: block;
   width: 124px;
   height: 32px;
-  background: url(../images/index.png) 0 -730px no-repeat; }
+  background: url(../images/index.png) 0 -730px no-repeat;
+}
 .expr-link .word-list {
   text-align: center;
-  margin: 34px auto 0 auto; }
+  margin: 34px auto 0 auto;
+}
 .expr-link .word-list p {
   color: #999;
   font-size: 14px;
   line-height: 20px;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .expr-link .word-list p span {
-  color: #e62318; }
+  color: #e62318;
+}
 
 /* 主体第一部分 */
 #jsindexdata .limit-robbing {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 #jsindexdata .limit-robbing .back-img {
   width: 259px;
   height: 300px;
@@ -165,34 +196,40 @@ img {
   float: left;
   display: block;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
 #jsindexdata .limit-robbing .back-img .floor-content {
   top: 40px;
   text-align: center;
   position: absolute;
   z-index: 10;
-  width: 100%; }
+  width: 100%;
+}
 #jsindexdata .limit-robbing .back-img .floor-content .represent {
   background: #fff;
   padding: 10px;
   display: inline-block;
   width: 200px;
   height: 90px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 #jsindexdata .limit-robbing .back-img .floor-content .represent .word-box {
   border: 1px solid #ececec;
   padding: 0 22px;
-  width: 154px; }
+  width: 154px;
+}
 #jsindexdata .limit-robbing .back-img .floor-content .represent .word-box .describe {
   font-size: 22px;
   color: #333;
   margin-bottom: 2px;
   padding: 18px 0 4px 0;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 #jsindexdata .limit-robbing .back-img .floor-content .represent .word-box .depict {
   font-size: 14px;
   color: #666;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 #jsindexdata .limit-robbing .back-img img {
   width: 100%;
   height: 100%;
@@ -202,22 +239,26 @@ img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+}
 #jsindexdata .limit-robbing .first {
   width: 393px;
-  margin-left: 0; }
+  margin-left: 0;
+}
 #jsindexdata .limit-robbing .first .describe {
   padding: 16px 0 5px 0;
   border-bottom: 1px dashed #dfd3e9;
   margin-bottom: 0;
   width: 100%;
   height: 30px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 #jsindexdata .limit-robbing .first .depict {
   padding: 5px 0 12px 0;
   width: 100%;
   height: 19px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 #jsindexdata .limit-robbing .back-img:hover img {
   width: 103%;
   height: 103%;
@@ -228,30 +269,35 @@ img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+}
 
 /* 主体的 第二部分 */
 /* 每一层的标题 */
 .w .floor-name {
   padding: 45px 0 17px 0;
-  background: #fff; }
+  background: #fff;
+}
 .w .floor-name .title {
   color: #333;
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 
 .w .floot-content {
   position: absolute;
   z-index: 10;
-  width: 100%; }
+  width: 100%;
+}
 
 /* 图片的放大和缩小 */
 .w .back-img {
   display: block;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .w .back-img img {
   width: 100%;
@@ -262,7 +308,8 @@ img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+}
 
 .w .back-img:hover img {
   width: 103%;
@@ -274,11 +321,13 @@ img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+}
 
 #jsindexdata .new-product .floor-name {
   padding: 45px 0 17px 0;
-  background: #fff; }
+  background: #fff;
+}
 #jsindexdata .new-product .floor-name .title {
   display: inline-block;
   float: left;
@@ -286,7 +335,8 @@ img {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 #jsindexdata .new-product .floor-name .describe {
   font-size: 14px;
   color: #999;
@@ -294,7 +344,8 @@ img {
   margin: 11px 11px 0;
   font-family: '微软雅黑';
   display: inline-block;
-  float: left; }
+  float: left;
+}
 #jsindexdata .new-product .floor-name .link {
   font-size: 14px;
   line-height: 20px;
@@ -302,14 +353,16 @@ img {
   width: 78px;
   float: right;
   margin-top: 14px;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 #jsindexdata .new-product .floor-name .link i {
   background: url(../images/index.png) -136px -604px no-repeat;
   width: 15px;
   height: 15px;
   display: inline-block;
   margin: -3px 0 0 6px;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 #jsindexdata .new-product .goods-list .back-img {
   width: 393px;
   height: 393px;
@@ -317,13 +370,15 @@ img {
   float: left;
   display: block;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
 #jsindexdata .new-product .goods-list .back-img .floor-content {
   bottom: 38px;
   text-align: center;
   position: absolute;
   z-index: 10;
-  width: 100%; }
+  width: 100%;
+}
 #jsindexdata .new-product .goods-list .back-img .floor-content .describe {
   font-family: '微软雅黑';
   display: inline-block;
@@ -332,17 +387,21 @@ img {
   line-height: 32px;
   border-bottom: 2px solid #fff;
   padding-bottom: 8px;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+}
 #jsindexdata .new-product .goods-list .back-img .floor-content .depict {
   font-family: '微软雅黑';
   color: #fff;
   font-size: 14px;
-  display: inline-block; }
+  display: inline-block;
+}
 #jsindexdata .new-product .goods-list .back-img .floor-content .depict label {
   color: #e62318;
-  margin: 0 2px 0 7px; }
+  margin: 0 2px 0 7px;
+}
 #jsindexdata .new-product .goods-list .back-img .floor-content .depict .JS_async_price {
-  color: #e62318; }
+  color: #e62318;
+}
 #jsindexdata .new-product .goods-list .back-img img {
   width: 100%;
   height: 100%;
@@ -352,9 +411,11 @@ img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+}
 #jsindexdata .new-product .goods-list .first {
-  margin-left: 0; }
+  margin-left: 0;
+}
 #jsindexdata .new-product .back-img:hover img {
   width: 103%;
   height: 103%;
@@ -365,73 +426,91 @@ img {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+}
 
 /* 主体的第三部分 */
 .popularity .popularity-goods {
   height: 450px;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .popularity .popularity-goods .back-img {
   display: block;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
 .popularity .popularity-goods .l-good {
   width: 270px;
   height: 450px;
   margin-right: 10px;
-  float: left; }
+  float: left;
+}
 .popularity .popularity-goods .l-good .floot-content {
-  top: 50px; }
+  top: 50px;
+}
 .popularity .popularity-goods .l-good .floot-content .describe {
   color: #333;
   font-size: 20px;
   line-height: 24px;
-  margin-left: 45px; }
+  margin-left: 45px;
+}
 .popularity .popularity-goods .l-good .floot-content .depict {
   color: #666;
   font-size: 14px;
-  margin: 4px 0 3px 45px; }
+  margin: 4px 0 3px 45px;
+}
 .popularity .popularity-goods .l-good .floot-content .price {
   color: #e62318;
   margin-left: 45px;
-  font-size: 14px; }
+  font-size: 14px;
+}
 .popularity .popularity-goods .m-good {
   width: 520px;
   height: 450px;
   margin-right: 10px;
-  float: left; }
+  float: left;
+}
 .popularity .popularity-goods .m-good .floot-content {
   bottom: 39px;
-  text-align: center; }
+  text-align: center;
+}
 .popularity .popularity-goods .m-good .floot-content .represent {
   position: relative;
   height: 100px;
   width: 260px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 .popularity .popularity-goods .r-good {
   float: left;
   width: 390px;
-  height: 450px; }
+  height: 450px;
+}
 .popularity .popularity-goods .r-good .first {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 .popularity .popularity-goods .r-good .back-img {
   width: 100%;
-  height: 220px; }
+  height: 220px;
+}
 .popularity .popularity-goods .r-good .back-img .floot-content {
-  top: 50px; }
+  top: 50px;
+}
 .popularity .popularity-goods .r-good .back-img .floot-content .describe {
   color: #333;
   font-size: 20px;
   line-height: 24px;
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 .popularity .popularity-goods .r-good .back-img .floot-content .depict {
   color: #666;
   font-size: 14px;
-  margin: 4px 0 3px 30px; }
+  margin: 4px 0 3px 30px;
+}
 .popularity .popularity-goods .r-good .back-img .floot-content .price {
   color: #e62318;
   margin-left: 30px;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .m-good .represent .date {
   position: relative;
@@ -439,25 +518,30 @@ img {
   padding: 22px 27px 0 27px;
   top: 0;
   left: 0;
-  width: 220px; }
+  width: 220px;
+}
 .m-good .represent .date .describe {
   color: #333;
   font-size: 20px;
   margin-bottom: 6px;
   height: 26px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 .m-good .represent .date .depict {
   color: #333;
   font-size: 14px;
   padding-top: 7px;
   border-top: 1px dotted #333;
   height: 20px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 .m-good .represent .date .depict label {
   color: #e62318;
-  margin: 0 3px 0 11px; }
+  margin: 0 3px 0 11px;
+}
 .m-good .represent .date .depict span {
-  color: #e62318; }
+  color: #e62318;
+}
 .m-good .represent .content-back {
   display: inline-block;
   position: absolute;
@@ -468,38 +552,45 @@ img {
   filter: alpha(opacity=90);
   _filter: alpha(opacity=90);
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 /* 主体第四部分的样式 */
 .bill .bill-list .bill-goods {
   float: left;
   width: 390px;
   height: 507px;
-  margin-left: 14px; }
+  margin-left: 14px;
+}
 .bill .bill-list .bill-goods .suit-img {
   width: 100%;
-  height: 278px; }
+  height: 278px;
+}
 .bill .bill-list .bill-goods .goods-list {
   background: #f5f5f5;
   position: relative;
   padding: 20px;
   height: 189px;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .bill .bill-list .bill-goods .goods-list .arrow {
   position: absolute;
   top: -24px;
-  left: 31px; }
+  left: 31px;
+}
 .bill .bill-list .bill-goods .goods-list .arrow div {
   width: 0;
   height: 0;
   border: 12px solid transparent;
   background: 0 0;
-  border-bottom-color: #f5f5f5; }
+  border-bottom-color: #f5f5f5;
+}
 .bill .bill-list .bill-goods .goods-list .title {
   font-size: 18px;
   color: #333;
   margin: 6px 0 5px;
-  display: block; }
+  display: block;
+}
 .bill .bill-list .bill-goods .goods-list .detail span {
   color: #999;
   max-width: 302px;
@@ -509,132 +600,175 @@ img {
   overflow: hidden;
   vertical-align: middle;
   text-overflow: ellipsis;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 .bill .bill-list .bill-goods .goods-list .detail .link {
   color: #e62318;
   margin-left: 10px;
-  font-size: 14px; }
+  font-size: 14px;
+}
 .bill .bill-list .bill-goods .goods-list .list {
-  margin-top: 8px; }
+  margin-top: 8px;
+}
 .bill .bill-list .bill-goods .goods-list .list .good {
   float: left;
   position: relative;
   width: 115px;
   height: 115px;
-  margin-left: 2px; }
+  margin-left: 2px;
+}
 .bill .bill-list .bill-goods .goods-list .list .good .back-img {
   width: 115px;
-  height: 115px; }
+  height: 115px;
+}
 .bill .bill-list .bill-goods .goods-list .list .good .floor-content {
   text-align: center;
   color: #999;
   font-size: 13px;
   line-height: 20px;
-  bottom: -5px; }
+  bottom: -5px;
+}
 .bill .bill-list .bill-goods .goods-list .list .first {
-  margin-left: 0; }
+  margin-left: 0;
+}
 .bill .bill-list .first {
-  margin-left: 0; }
+  margin-left: 0;
+}
 
 /* 主体的第五部分 */
 .classify {
   padding-top: 47px;
-  position: relative; }
+  position: relative;
+}
 .classify .classify-list {
   position: relative;
-  z-index: 100; }
+  z-index: 100;
+}
 .classify .classify-list .list {
   position: absolute;
   width: 225px;
   height: 300px;
   top: 50px;
   left: 50px;
-  background: #fff; }
+  background: #fff;
+}
 .classify .classify-list .list .name {
   text-align: center;
-  margin-top: 29px; }
+  margin-top: 29px;
+}
 .classify .classify-detail {
   position: relative;
   z-index: 0;
   overflow: hidden;
-  height: 770px; }
+  height: 770px;
+}
 .classify .classify-detail li {
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
   text-align: center;
-  display: block; }
+  display: block;
+}
 .classify .classify-detail li .scroll-index {
   position: relative;
   filter: inherit;
   width: 1200px;
   height: 770px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 .classify .classify-detail li .scroll-index .suit-img {
   width: 100%;
-  height: 400px; }
+  height: 400px;
+}
 .classify .classify-btn {
   position: absolute;
   top: 413px;
-  right: 50px; }
+  right: 50px;
+}
 .classify .classify-btn .btn {
   width: 90px;
   height: 34px;
   color: #fff;
   font-size: 14px;
   float: left;
-  cursor: pointer; }
+  cursor: pointer;
+}
 .classify .classify-btn .btn div {
   width: 90px;
   height: 34px;
-  position: absolute; }
+  position: absolute;
+}
 .classify .classify-btn .btn .title {
   z-index: 100;
   text-align: center;
   line-height: 34px;
   top: 0;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .classify .classify-btn .btn .back {
   background: #000;
-  opacity: .6; }
+  opacity: .6;
+}
+.classify .classify-btn .current {
+  color: #000;
+}
+.classify .classify-btn .current .back {
+  background: #fff;
+  opacity: 1;
+}
 
 .scroll-index .goods-list {
-  margin-top: 20px; }
+  position: absolute;
+  margin-top: 20px;
+  display: none;
+}
 .scroll-index .goods-list .goods {
   width: 285px;
   height: 350px;
   margin-left: 20px;
-  float: left; }
+  float: left;
+}
 .scroll-index .goods-list .goods .back-img {
   width: 285px;
-  height: 285px; }
+  height: 285px;
+}
 .scroll-index .goods-list .goods p {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .scroll-index .goods-list .goods .name {
   color: #666;
-  margin: 18px 0 3px 0; }
+  margin: 18px 0 3px 0;
+}
 .scroll-index .goods-list .goods .price {
-  color: #e62318; }
+  color: #e62318;
+}
 .scroll-index .goods-list .first {
-  margin-left: 0; }
+  margin-left: 0;
+}
+.scroll-index .eq-0 {
+  display: block;
+}
 
 .classify-list .list .name .chinese-name {
   color: #333;
   font-size: 40px;
   line-height: 48px;
-  font-family: '微软雅黑'; }
+  font-family: '微软雅黑';
+}
 .classify-list .list .name .english-name {
   color: #999;
   font-size: 12px;
   line-height: 18px;
   font-family: '微软雅黑';
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+}
 .classify-list .list .type {
-  padding: 31px 15px 0 20px; }
+  padding: 31px 15px 0 20px;
+}
 .classify-list .list .type a {
   display: block;
   margin: 0 5px 5px 0;
@@ -645,6 +779,7 @@ img {
   line-height: 25px;
   text-align: center;
   background: #f5f5f5;
-  float: left; }
+  float: left;
+}
 
 /*# sourceMappingURL=index.css.map */

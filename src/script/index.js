@@ -41,6 +41,232 @@
 }(jQuery);
 
 
+
+//获取商品数据
+!function($){
+	$.ajax({
+		url: 'http://10.31.162.54/meilele/php/index-getdata-1.php',
+		//type: 'default GET (Other values: POST)',
+		dataType: 'json',
+		//data: {param1: 'value1'},
+	}).done(function(data) {
+		var $str1="";
+		var $str2="";
+		var $str3="";
+		var $str4="";
+		var $str5="";
+		var $str6="";
+		var $str7="";
+		var $str8="";
+		$.each(data,function(index,value){
+			if(index>=0 && index<4 && index==0){
+				$str1+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if(index>=0 && index<4){
+				$str1+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+			if(index>=4 && index<8 && index==4){
+				$str2+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if(index>=4 && index<8){
+				$str2+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+			if(index>=8 && index<12 && index==8){
+				$str3+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if (index>=8 && index<12) {
+				$str3+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+			if(index>=12 && index<16 && index==12){
+				$str4+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if (index>=12 && index<16) {
+				$str4+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}
+			if(index>=16 && index<20 && index==16){
+				$str5+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if (index>=16 && index<20) {
+				$str5+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+			if(index>=20 && index<24 && index==20){
+				$str6+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if (index>=20 && index<24) {
+				$str6+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+			if(index>=24 && index<28 && index==24){
+				$str7+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if (index>=24 && index<28){
+				$str7+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+			if(index>=28 && index<32 && index==28){
+				$str8+=`<div class="goods first">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			}else if (index>=28 && index<32){
+				$str8+=`<div class="goods">
+						<a href="details.html?sid=${value.sid}" class="back-img">
+							<img src="${value.showpic}">
+							<div class="tag"></div>
+						</a>
+						<p class="name">
+							<a href="" target="_blank">${value.showtitle}</a>
+						</p>
+						<p class="price">￥<span class="JS_async_price">${value.showprice}</span></p>
+					</div>`
+			};
+
+		})
+		$('.scroll-index .goods-list:eq(0)').addClass('eq-0').html($str1);
+		$('.scroll-index .goods-list:eq(1)').html($str2);
+		$('.scroll-index .goods-list:eq(2)').html($str3);
+		$('.scroll-index .goods-list:eq(3)').html($str4);
+		$('.scroll-index .goods-list:eq(4)').html($str5);
+		$('.scroll-index .goods-list:eq(5)').html($str6);
+		$('.scroll-index .goods-list:eq(6)').html($str7);
+		$('.scroll-index .goods-list:eq(7)').html($str8);
+
+
+	})
+	/*.fail(function() {
+		console.log("error");
+	})
+	.always(function() {
+		console.log("complete");
+	});*/
+	
+}(jQuery)
+
+
+//效果js
 !function($){
 	//商品分类侧边栏
 		$(".index-header").on('mouseover','.cat-item',function(event){
@@ -91,3 +317,16 @@
 			},5000)
 	});
 }(jQuery);
+
+//各类商品切换
+!function($){
+	/*按钮划过时的效果*/
+	var $num=0;
+	$('.classify-btn .btn').hover(function() {
+		$num=$(this).index()
+		$(this).addClass('current').siblings().removeClass('current');
+		$('.scroll-index').children('.goods-list').eq($num).css('display', 'block').siblings('.goods-list').css('display', 'none');
+	}, function() {
+		
+	});
+}(jQuery)

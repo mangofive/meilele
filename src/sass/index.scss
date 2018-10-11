@@ -733,11 +733,20 @@ img{
     			opacity: .6;
 		    }
 	    }
+	    .current{
+			color:#000;
+			.back{
+				background:#fff;
+				opacity:1;
+			}
+	    }
     }
 }
 .scroll-index{
 	.goods-list{
+		position: absolute;
 		margin-top: 20px;
+		display:none;
 		.goods{
 			width: 285px;
 		    height: 350px;
@@ -764,6 +773,9 @@ img{
 		.first{
 			margin-left: 0;
 		}
+	}
+	.eq-0{
+		display:block;
 	}
 }
 .classify-list .list{
